@@ -272,21 +272,21 @@ nav {
     grid-template-columns: 1.75fr 1fr;
     grid-gap: 16px;
     grid-template-areas:
-        "osnovna  cysecor"
+        "fakultet  cysecor"
         "srednja  cysecor"
-        "fakultet bymarkozi";
+        "osnovna bymarkozi";
 }
 
-#osnovna {
-    grid-area: osnovna;
+#fakultet {
+    grid-area: fakultet;
 }
 
 #srednja {
     grid-area: srednja;
 }
 
-#fakultet {
-    grid-area: fakultet;
+#osnovna {
+    grid-area: osnovna;
 }
 
 #cysecor {

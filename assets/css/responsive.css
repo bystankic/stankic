@@ -45,9 +45,9 @@
     #edu-grid {
         grid-template-columns: 1fr;
         grid-template-areas:
-            "osnovna"
-            "srednja"
             "fakultet"
+            "srednja"
+            "osnovna"
             "cysecor"
             "bymarkozi";
     }
