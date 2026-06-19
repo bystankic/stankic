@@ -85,11 +85,21 @@
         grid-template-columns: 1fr;
     }
 
-    #contact-heading {
-        margin-bottom: -16px;
+    #contact-cards {
+        display: flex;
+        flex-direction: column;
     }
 
-    #contact-cards {
-        display: none;
+    #contact-cards > div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-crad {
+        margin: 0 !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
     }
 }
