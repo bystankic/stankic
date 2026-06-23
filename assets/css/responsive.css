@@ -20,6 +20,10 @@
 
     #edu-grid {
         grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+        "fakultet  srednja"
+        "osnovna cysecor"
+        "bymarkozi bymarkozi";
     }
 
     #skills-grid {

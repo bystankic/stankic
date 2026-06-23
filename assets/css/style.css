@@ -260,12 +260,12 @@ nav {
 
 #edu-grid {
     display: grid;
-    grid-template-columns: 1.75fr 1fr;
+    grid-template-columns: 1.25fr 0.75fr 1fr;
     grid-gap: 16px;
     grid-template-areas:
-        "fakultet  cysecor"
-        "srednja  cysecor"
-        "osnovna bymarkozi";
+        "fakultet fakultet  cysecor"
+        "srednja srednja  cysecor"
+        "osnovna bymarkozi bymarkozi";
 }
 
 #fakultet {
@@ -476,7 +476,6 @@ textarea.form-control {
 /* Footer */
 footer {
     padding: 48px 0;
-    border-top: 2px solid var(--accent);
 }
 
 #footer-up {
