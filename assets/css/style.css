@@ -111,9 +111,7 @@ p {
 }
 
 @keyframes blink {
-
-    0%,
-    100% {
+    0%, 100% {
         box-shadow: none;
         opacity: 0.8;
     }
@@ -445,6 +443,7 @@ form {
     background-color: var(--background);
     padding: 16px 24px 32px 24px;
     border-radius: 8px;
+    margin: 0 !important;
 }
 
 .form-control {
