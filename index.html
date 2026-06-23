@@ -81,8 +81,8 @@
                 Pravim moderne, brze i responzivne web sajtove sa pažnjom prema dizajnu i detaljima.
             </p>
             <div id="CTA-wrapper">
-                <a class="button-primary" href="#projects">Pogledaj projekte</a>
-                <a class="button-secondary d-flex justify-content-center align-items-center gap-1" href="#contact">
+                <a class="button-primary" href="#projekti">Pogledaj projekte</a>
+                <a class="button-secondary d-flex justify-content-center align-items-center gap-1" href="#kontakt">
                     Kontaktiraj me
                     <svg class="btn-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
                         <polyline points="9 18 15 12 9 6"/>
@@ -100,7 +100,7 @@
                     <span class="dot"></span>
                     <p>O Meni</p>
                 </div>
-                <h2 id="about-heading">
+                <h2>
                     Ko sam <span class="custom-heading">ja?</span>
                 </h2>
                 <p>
@@ -109,7 +109,7 @@
                 <p id="about-additional-info">
                     Sa timom <span class="custom-heading">„The Šmekeri“</span> osvojio sam 2. mesto na FON-ovom Hakatonu za srednjoškolce (HZS 7.0), gde smo razvili platformu „WeFinance“ namenjenu finansijskom obrazovanju mladih.
                 </p>
-                <a href="#projects" class="button-primary">Pogledaj projekte</a>
+                <a href="#projekti" class="button-primary">Pogledaj projekte</a>
             </div>
             <div id="about-image">
                 <img src="assets/images/AleksaStankic.png" alt="Aleksa Stankić" loading="lazy" />
@@ -124,7 +124,9 @@
                 <span class="dot"></span>
                 <p>Edukacija</p>
             </div>
-            <h2 id="edu-heading">Kako sam <span class="custom-heading">stekao znanje</span></h2>
+            <h2>
+                Kako sam <span class="custom-heading">stekao znanje</span>
+            </h2>
             <div id="edu-grid">
                 <div id="fakultet" class="edu-card">
                     <div class="notch">
@@ -172,7 +174,9 @@
                 <span class="dot"></span>
                 <p>Veštine</p>
             </div>
-            <h2 id="skills-heading">Veštine & Tehnologije <span class="custom-heading">koje znam</span></h2>
+            <h2>
+                Veštine & Tehnologije <span class="custom-heading">koje znam</span>
+            </h2>
             <div id="skills-grid">
                 <div class="skills-card">
                     <span class="fa-brands fa-html5"></span>
@@ -237,7 +241,9 @@
                 <span class="dot"></span>
                 <p>Projekti</p>
             </div>
-            <h2 id="projects-heading">Neki od mojih <span class="custom-heading">projekata</span></h2>
+            <h2>
+                Neki od mojih <span class="custom-heading">projekata</span>
+            </h2>
             <div class="row g-4">
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="card project-card">
@@ -321,7 +327,10 @@
                         <span class="dot"></span>
                         <p>Kontakt</p>
                     </div>
-                    <h2 id="contact-heading">Kontaktiraj <span class="custom-heading">me</span></h2>
+                    <h2 id="contact-heading">
+                        Kontaktiraj <span class="custom-heading">me</span>
+                    </h2>
+                    <p id="contact-text">Bilo da imaš projekat, ideju ili samo pitanje, tu sam da ti pomognem. Ostavi mi poruku i javiću ti se u što kraćem roku.</p>
                     <div id="contact-cards">
                         <div>
                             <a class="contact-crad" href="mailto:aleksa.stankic.10.25@ict.edu.rs">
@@ -351,20 +360,20 @@
                             <label for="inputFullName" class="form-label">Ime & Prezime</label>
                             <input type="text" class="form-control" id="inputFullName" placeholder="Petar Petrović">
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-12 col-sm-6">
                             <label for="inputEmail" class="form-label">Email</label>
                             <input type="email" class="form-control" id="inputEmail" placeholder="petar@gmail.com">
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-12 col-sm-6">
                             <label for="inputPhoneNumber" class="form-label">Broj Telefona</label>
                             <input type="tel" class="form-control" id="inputPhoneNumber" placeholder="+381 60 123 4567">
                         </div>
-                        <div class="col-12">
+                        <div class="col-12 mb-2">
                             <label for="inputTextarea" class="form-label">Poruka</label>
                             <textarea class="form-control" placeholder="Kako mogu da ti pomognem?" id="inputTextarea"></textarea>
                         </div>
                         <div class="col-12">
-                            <button type="submit" class="btn button-primary">Pošalji</button>
+                            <button type="submit" id="contactButton" class="btn button-primary">Pošalji</button>
                         </div>
                     </form>
                 </div>

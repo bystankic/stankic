@@ -37,6 +37,7 @@ h2 {
     font-size: 3rem;
     font-weight: 600;
     color: var(--text);
+    margin: 24px 0 32px 0;
 }
 
 a {
@@ -237,10 +238,6 @@ nav {
     flex: 1;
 }
 
-#about-heading {
-    margin: 24px 0;
-}
-
 #about-additional-info {
     margin: 24px 0 32px 0;
 }
@@ -261,10 +258,6 @@ nav {
 /* Education Section */
 #edukacija {
     padding: 96px 0;
-}
-
-#edu-heading {
-    margin: 24px 0;
 }
 
 #edu-grid {
@@ -312,10 +305,6 @@ nav {
 #vestine {
     background-color: var(--background-secondary);
     padding: 96px 0;
-}
-
-#skills-heading {
-    margin: 24px 0 32px 0;
 }
 
 #skills-grid {
@@ -376,10 +365,6 @@ nav {
     padding: 96px 0;
 }
 
-#projects-heading {
-    margin: 24px 0 32px 0;
-}
-
 .project-card {
     border: 0;
     border-radius: 8px;
@@ -416,12 +401,17 @@ nav {
 }
 
 #contact-heading {
-    margin: 24px 0 32px 0;
+    margin-bottom: 16px;
 }
 
 #contact-cards {
     display: flex;
     gap: 16px;
+}
+
+#contact-text {
+    margin-bottom: 24px;
+    width: 46ch;
 }
 
 .contact-crad {
@@ -451,22 +441,28 @@ nav {
     color: var(--background-secondary);
 }
 
-.form-control {
+form {
     background-color: var(--background);
+    padding: 16px 24px 32px 24px;
+    border-radius: 8px;
+}
+
+.form-control {
+    background-color: #cce7ff;
     border: none;
     outline: none;
     box-shadow: none;
     padding: 8px 12px;
-    color: var(--text) !important;
+    color: var(--background) !important;
 }
 
 .form-control::placeholder {
-    color: #FFFFFF60 !important;
+    color: #04061580 !important;
 }
 
 .form-control:focus {
-    background-color: var(--background);
-    color: var(--text);
+    background-color: #cce7ff;
+    color: var(--background) !important;
     border: none;
     outline: none;
     box-shadow: none;

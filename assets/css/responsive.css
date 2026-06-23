@@ -26,6 +26,10 @@
         grid-template-columns: repeat(3, 1fr);
     }
 
+    #contact-text {
+        width: 100%;
+    }
+
     #contact-cards > div {
         display: flex;
         gap: 16px;
@@ -99,6 +103,10 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        width: 100%;
+    }
+
+    #contactButton {
         width: 100%;
     }
 
