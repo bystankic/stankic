@@ -439,75 +439,109 @@ nav {
     color: var(--background-secondary);
 }
 
-form {
-    background-color: var(--background);
-    padding: 16px 24px 32px 24px;
-    border-radius: 8px;
-    margin: 0 !important;
+.form-label {
+    color: var(--text);
+    font-size: 15px;
 }
 
 .form-control {
-    background-color: #cce7ff;
-    border: none;
+    background-color: var(--background);
+    border: 1px solid rgba(152, 207, 255, 0.15);
     outline: none;
     box-shadow: none;
-    padding: 8px 12px;
-    color: var(--background) !important;
+    padding: 10px 14px;
+    color: var(--text) !important;
+    border-radius: 6px;
+    transition: border-color 0.25s ease-in-out;
 }
 
 .form-control::placeholder {
-    color: #04061580 !important;
+    color: rgba(255, 255, 255, 0.3) !important;
+    opacity: 1;
 }
 
 .form-control:focus {
-    background-color: #cce7ff;
-    color: var(--background) !important;
-    border: none;
+    background-color: var(--background);
+    color: var(--text) !important;
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px rgba(152, 207, 255, 0.1);
     outline: none;
-    box-shadow: none;
 }
 
 textarea.form-control {
-    height: 5.5rem;
-}
-
-textarea.form-control::placeholder,
-input.form-control::placeholder {
-    color: #FFFFFF60;
-    opacity: 1;
+    height: 6rem;
+    resize: none;
 }
 
 /* Footer */
 footer {
-    padding: 64px 0 32px 0;
+    padding: 48px 0;
+    border-top: 2px solid var(--accent);
 }
 
-#footer-wrapper {
+#footer-up {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
+    padding-bottom: 32px;
+    border-bottom: 1px solid #98cfff60;
     margin-bottom: 32px;
 }
 
-#footer-links ul {
+.footer-links {
     list-style-type: none;
-    padding: 0;
-    margin: 0;
     display: flex;
-    flex-direction: row;
     gap: 16px;
+    margin: 0;
+    padding: 0;
 }
 
-#footer-links ul li a {
+.footer-links li a {
     color: var(--text);
     transition: all 0.25s ease-in-out;
 }
 
-#footer-links ul li a:hover {
+.footer-links li a:hover {
     color: var(--accent);
 }
 
-#footer-links ul li a:active,
-#footer-links ul li a:focus {
+.footer-links li a:active,
+.footer-links li a:focus {
     color: var(--text);
+}
+
+#footer-social-media {
+    gap: 8px;
+}
+
+#footer-social-media li a {
+    font-size: 22px;
+    color: var(--accent);
+    transition: 0.25s ease-in-out;
+}
+
+#footer-social-media li a:hover {
+    color: var(--accent-hover);
+}
+
+#footer-down {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#button-pdf {
+    background-color: transparent;
+    color: var(--accent);
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-weight: 500;
+    border: 2px solid var(--accent);
+    box-shadow: 2px 2px 8px rgba(152, 207, 255, 0.5);
+    transition: 0.25s ease-in-out;
+}
+
+#button-pdf:hover {
+    background-color: var(--accent);
+    color: var(--black);
 }

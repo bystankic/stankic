@@ -360,11 +360,11 @@
                             <label for="inputFullName" class="form-label">Ime & Prezime</label>
                             <input type="text" class="form-control" id="inputFullName" placeholder="Petar Petrović">
                         </div>
-                        <div class="col-12 col-sm-6">
+                        <div class="col-12 col-sm-7">
                             <label for="inputEmail" class="form-label">Email</label>
                             <input type="email" class="form-control" id="inputEmail" placeholder="petar@gmail.com">
                         </div>
-                        <div class="col-12 col-sm-6">
+                        <div class="col-12 col-sm-5">
                             <label for="inputPhoneNumber" class="form-label">Broj Telefona</label>
                             <input type="tel" class="form-control" id="inputPhoneNumber" placeholder="+381 60 123 4567">
                         </div>
@@ -373,7 +373,7 @@
                             <textarea class="form-control" placeholder="Kako mogu da ti pomognem?" id="inputTextarea"></textarea>
                         </div>
                         <div class="col-12">
-                            <button type="submit" id="contactButton" class="btn button-primary">Pošalji</button>
+                            <button type="submit" id="contactButton" class="btn button-primary">Pošalji Poruku</button>
                         </div>
                     </form>
                 </div>
@@ -382,15 +382,13 @@
     </section>
 
     <!-- Footer -->
-    <footer class="container">
-        <div id="footer-wrapper">
-            <div>
+    <footer>
+        <div class="container">
+            <div id="footer-up">
                 <a href="index.html">
                     <img class="logo" src="assets/images/logo.svg" alt="Logo" loading="lazy" />
                 </a>
-            </div>
-            <div id="footer-links">
-                <ul>
+                <ul class="footer-links">
                     <li>
                         <a href="#omeni">O Meni</a>
                     </li>
@@ -406,13 +404,35 @@
                     <li>
                         <a href="#kontakt">Kontakt</a>
                     </li>
+                </ul>
+                <ul class="footer-links" id="footer-social-media">
                     <li>
-                        <a href="assets/docs/PortfolioOcenjivanje.pdf" target="_blank">PDF</a>
+                        <a href="mailto:aleksa.stankic.10.25@ict.edu.rs">
+                            <span class="fa-solid fa-envelope"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/" target="_blank">
+                            <span class="fa-brands fa-github"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/" target="_blank">
+                            <span class="fa-brands fa-square-linkedin"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/" target="_blank">
+                            <span class="fa-brands fa-instagram"></span>
+                        </a>
                     </li>
                 </ul>
             </div>
+            <div id="footer-down">
+                <p>&copy; 2026 Aleksa Stankić. Sva prava zadržana.</p>
+                <a id="button-pdf" href="assets/docs/PortfolioOcenjivanje.pdf" target="_blank">PDF Dokument</a>
+            </div>
         </div>
-        <p class="text-center">&copy; 2026 Aleksa Stankić. Sva prava zadržana.</p>
     </footer>
 
     <!-- Bootstrap JS -->
