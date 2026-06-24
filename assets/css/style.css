@@ -412,7 +412,7 @@ nav {
     width: 46ch;
 }
 
-.contact-crad {
+.contact-card {
     background-color: var(--background);
     padding: 16px;
     border-radius: 8px;
@@ -424,18 +424,18 @@ nav {
     transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out;
 }
 
-.contact-crad span {
+.contact-card span {
     color: var(--accent);
     font-size: 2rem;
     transition: color 0.35s ease-in-out;
 }
 
-.contact-crad:hover {
+.contact-card:hover {
     background-color: var(--accent);
     color: var(--background-secondary);
 }
 
-.contact-crad:hover span {
+.contact-card:hover span {
     color: var(--background-secondary);
 }
 

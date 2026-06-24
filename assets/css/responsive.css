@@ -39,7 +39,7 @@
         gap: 16px;
     }
 
-    .contact-crad {
+    .contact-card {
         margin: 0 !important;
     }
 }
@@ -68,7 +68,7 @@
         display: inline-block;
     }
 
-    .contact-crad {
+    .contact-card {
         margin-top: 16px !important;
     }
 
@@ -102,7 +102,7 @@
         flex-direction: column;
     }
 
-    .contact-crad {
+    .contact-card {
         margin: 0 !important;
         display: flex;
         justify-content: center;
